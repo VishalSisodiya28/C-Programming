@@ -4,15 +4,15 @@ rectangle to take its height and width as input */
 #include <stdio.h>
 int main()
 {
-    int hr, min;
+    int l, b;
 
-    printf("Input hours : ");
-    scanf("%i", &hr);
+    printf("InputlLength : ");
+    scanf("%i", &l);
 
-    printf("Input minutes : ");
-    scanf("%i", &min);
+    printf("Input breadth : ");
+    scanf("%i", &b);
 
-    printf("Total : %i minutes.", hr * 60 + min);
+    printf("Perimeter : %i ", 2 * (l + b));
 
     return 0;
 }
