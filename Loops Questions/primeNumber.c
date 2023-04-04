@@ -22,6 +22,7 @@ int main()
 
     if (flag == 0)
         printf("number is Prime");
+
     else
         printf("number is not Prime");
 
