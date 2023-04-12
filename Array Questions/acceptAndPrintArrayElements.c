@@ -1,4 +1,4 @@
-// 40 - Write a program in C to find the sum of the series like 1 +11 + 111 + 1111 + .. n terms for any number.
+// Write a program in C to find the sum of the series like 1 +11 + 111 + 1111 + .. n terms for any number.
 
 #include <stdio.h>
 
