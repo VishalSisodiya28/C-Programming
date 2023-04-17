@@ -1,6 +1,7 @@
 // Sum up to n terms.
 
 #include <stdio.h>
+
 int main()
 {
     int i, n, sum = 0;
