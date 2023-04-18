@@ -1,3 +1,5 @@
+// Write a program in C to separate the individual characters from a string
+
 #include <stdio.h>
 #include <string.h>
 
