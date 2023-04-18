@@ -1,3 +1,5 @@
+// Write a program in C to print a string in reverse
+
 #include <stdio.h>
 #include <string.h>
 
