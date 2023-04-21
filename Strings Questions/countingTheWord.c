@@ -3,7 +3,7 @@
 
 int main()
 {
-    char str[] = "the Vishal Sisodiya is thethe thethe thethe ";
+    char str[] = "the Vishal Sisodiya is the thethe thethe ";
 
     int n = strlen(str);
 
