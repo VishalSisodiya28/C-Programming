@@ -35,6 +35,7 @@ int main()
     concatString[j] = '\0';
 
     printf("First string : %s", str1);
+
     printf("\nSecond string : %s", str2);
 
     printf("\nConcatenated string is : %s", concatString);
