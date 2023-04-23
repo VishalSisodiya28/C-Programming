@@ -7,11 +7,12 @@ int main()
 {
 
     char str[] = "Vishal";
-    int n = sizeof(str);
 
+    int n = sizeof(str);
     int *ptr = (int *)calloc(256, sizeof(int));
 
     int i = 0;
+
     while (str[i] != '\0')
     {
 
