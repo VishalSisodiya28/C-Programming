@@ -10,6 +10,7 @@ int main()
 
     printf("Enter first string : ");
     scanf("%s", str1);
+    fflush(stdin);
 
     printf("Enter second string : ");
     scanf("%s", str2);
