@@ -1,6 +1,6 @@
 /*Write a C program to get the indices of the two numbers of a given array of integers,
 such that the sum of the two numbers equal to a specific target.
-
+0000
   Original Array: 4  2  1  5
   Target Value: 7*/
 
@@ -9,10 +9,23 @@ such that the sum of the two numbers equal to a specific target.
 int main()
 {
 
-    int arr[] = {4, 2, 1, 5};
-    int target = 10;
-    int n = sizeof(arr) / sizeof(int);
+    int target, n;
     int check = 0, n1, n2;
+
+    printf("Number of elements : ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    printf("Enter %d elements : ", n);
+
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Enter target value : ");
+    scanf("%d", &target);
 
     for (int i = 0; i < n; i++)
     {
