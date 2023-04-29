@@ -33,7 +33,9 @@ int main()
             }
         }
     }
+
     printf("Array after removing duplicates elements : ");
+
     for (int i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
