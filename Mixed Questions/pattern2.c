@@ -1,4 +1,6 @@
-/*  Right Triangle - Number
+/*
+
+Right Triangle - Number
     1
     1 2
     1 2 3
