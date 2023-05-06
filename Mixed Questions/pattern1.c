@@ -16,6 +16,7 @@ int main()
     int n;
 
     printf("Number of rows : ");
+
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++)
@@ -27,7 +28,7 @@ int main()
         }
 
         printf("\n");
-    }
+        }
 
     return 0;
 }
