@@ -3,6 +3,7 @@
 // Printing Diamond pattern
 
 #include <stdio.h>
+
 int main()
 {
 
@@ -19,6 +20,7 @@ int main()
         {
             printf("* ");
         }
+
         printf("\n");
     }
 
@@ -33,6 +35,7 @@ int main()
         {
             printf("* ");
         }
+
         printf("\n");
     }
 
