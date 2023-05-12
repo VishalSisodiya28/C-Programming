@@ -28,7 +28,7 @@ int main()
         if (i != 0)
             printf("*");
 
-        printf("\n");
+                printf("\n");
     }
 
     return 0;
