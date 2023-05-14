@@ -1,11 +1,4 @@
-/******************************************************************************
 
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby,
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
@@ -35,12 +28,14 @@ int main()
         {
             printf(" ");
         }
+
         printf("*");
 
         for (int j = 0; j < 2 * (n - i) - 1; j++)
         {
             printf(" ");
         }
+
         if (i != n)
             printf("*");
 
@@ -63,6 +58,7 @@ int main()
         }
 
         printf("*");
+
         printf("\n");
     }
 
