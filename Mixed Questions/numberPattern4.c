@@ -20,7 +20,6 @@ int main()
             {
 
                 if (j == 1 || j == 2 * i + 1)
-
                     printf("%d", j);
 
                 else
@@ -33,6 +32,7 @@ int main()
                 printf("%d", j);
             }
         }
+
         printf("\n");
     }
 
