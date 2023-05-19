@@ -3,11 +3,12 @@
 int main()
 {
 
-    int n = 16;
-    int temp = n;
+    int num, index = 0, binary[20];
 
-    int index = 0;
-    int binary[20];
+    printf("Enter decimal number : ");
+    scanf("%d", &num);
+
+    int temp = num;
 
     while (temp > 0)
     {
