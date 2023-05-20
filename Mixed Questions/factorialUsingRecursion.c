@@ -8,6 +8,7 @@ int fact(int n)
     else
         return 1;
 }
+
 int main()
 {
     int factorial = fact(4);
