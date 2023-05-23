@@ -51,8 +51,10 @@ int main()
 
         i++;
     }
+
     if (Integer == 0)
         printf("Enter valid roman numeral");
+
     else
         printf("Integer value: %d\n", Integer);
 
