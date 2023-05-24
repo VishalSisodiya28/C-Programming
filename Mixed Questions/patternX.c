@@ -48,6 +48,7 @@ int main()
         {
 
             printf(" ");
+        
         }
 
         printf("*");
