@@ -34,7 +34,7 @@ int main()
         for (int j = 0; j < 2 * (n - i) - 1; j++)
         {
             printf(" ");
-        }
+                }
 
         if (i != n)
             printf("*");
