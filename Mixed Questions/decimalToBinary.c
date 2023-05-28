@@ -13,10 +13,7 @@ int main()
     while (temp > 0)
     {
 
-        if (temp % 2 == 0)
-            binary[index] = 0;
-        else
-            binary[index] = 1;
+        binary[index] = temp % 2;
 
         index++;
         temp /= 2;
