@@ -2,7 +2,6 @@
 
 void printPrimeNumbers(int range)
 {
-
     if (range <= 0)
     {
 
