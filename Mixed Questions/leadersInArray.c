@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define max 30
+
 void printLeaders(int arr[], int n)
 {
 
