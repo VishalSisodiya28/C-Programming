@@ -13,6 +13,7 @@ int main()
             if (i == n - 1)
                 printf("*");
         }
+
         printf("*");
 
         for (int j = 0; j < 2 * i - 1; j++)
